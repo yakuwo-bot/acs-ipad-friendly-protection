@@ -1,0 +1,8 @@
+{
+  "Name": "IOSFriendlyProtection",
+  "DisplayName": "iPad Friendly Protection (Experimental)",
+  "Desc": "Protects ONLY player-owned friendly units with frequent injury clearing and health restoration. Enemy units are not modified. Experimental: NOT true hit immunity and may not prevent instant deaths; iPad in-game test required.",
+  "Author": "Community prototype",
+  "UIPackage": null,
+  "Dependencies": null
+}

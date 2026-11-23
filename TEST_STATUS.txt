@@ -1,0 +1,14 @@
+Validation date: 2026-11-23
+- Info.json: valid JSON, expected root keys. PASS
+- Lua 5.3 test harness: PASS
+  * friendly faction units healed; enemy faction untouched
+  * no AllGod flag enabled
+  * changing ownership removes protection
+  * newly added friendly units targeted
+  * dead units skipped
+  * individual exception isolation
+  * missing map handled safely
+- ZIP integrity: PASS
+- Actual Amazing Cultivation Simulator iPad execution: NOT TESTED
+- True invincibility against instantaneous lethal damage: NOT IMPLEMENTED
+- Independent edge tests: enemy, neutral and unknown factions untouched; missing player-camp enum fails closed; lethal friendly damage before the next healing tick is not prevented.
